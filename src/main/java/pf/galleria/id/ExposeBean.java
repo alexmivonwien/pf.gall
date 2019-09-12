@@ -28,6 +28,9 @@ public class ExposeBean implements Serializable {
    	 images.add("600_5308AA4BB69142E3AB05DF9BA394A133.jpg");
 	 images.add("600_AF3E4D6017BB4C6C8BA953D356FBE000.jpg");
 	 images.add("600_BC152BACEF144A75AAE8785422BADEFF.jpg");
+	 
+	 images.add("600_E26EABA0C9074BF69D12AC83229BEA10.jpg");
+	 images.add("600_F4EFBFA4BE9845DBB68ACFA8F2F657ED.jpg");
    }
 
 	public List<String> getImages() {
