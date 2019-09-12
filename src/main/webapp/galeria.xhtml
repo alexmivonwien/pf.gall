@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+<h:body>
+	<p:galleria value="#{exposeBean.images}" var="image" panelWidth="500" panelHeight="313" showCaption="false">
+		<p:graphicImage id="image" value="#{image}" width="500" height="300" alt="#{image}" title="#{image}"/>
+	</p:galleria>
+</h:body>
+</html>
